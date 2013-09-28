@@ -26,6 +26,17 @@ function autorun()
 		duration: 1600
 	});
 
+/*
+	$(document).keydown(function(event) {
+		if (event.which === 37) { // left
+			$("ul").roundabout("animateToPreviousChild", 1600, "easeOut");
+		} else if (event.which === 39) { // right
+			$("ul").roundabout("animateToNextChild", 1600, "easeOut");
+		}
+		event.preventDefault();
+	});
+*/
+
 	console.log("Thanks for visiting tomgavrilos.com - The portfolio of Tom Gavrilos. I'm a " + age + " year old product designer presently residing in Detroit, MI.");
 }
 if (window.addEventListener) window.addEventListener("load", autorun, false);
