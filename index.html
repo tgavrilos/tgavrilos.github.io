@@ -5,8 +5,8 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
-	<!-- Meta Information
-  ================================================== -->
+	<!-- Metas
+	================================================== -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Tom Gavrilos Design</title>
@@ -14,20 +14,17 @@
 	<meta name="author" content="Tom Gavrilos">
 
 	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	================================================== -->
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- CSS
-  ================================================== -->
-	<link rel="stylesheet" href="assets/css/vendor/skeleton.css">
-	<link rel="stylesheet" href="assets/css/vendor/layout.css">
-	<link rel="stylesheet" href="assets/css/vendor/idangerous.swiper.css">
-	<link rel="stylesheet" href="assets/css/vendor/idangerous.swiper.3dflow.css">
+	================================================== -->
 	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/skeleton.css">
+	<link rel="stylesheet" href="assets/css/layout.css">
+	<link rel="stylesheet" href="assets/css/vendor/animate.min.css">
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 	<!-- Favicons
 	================================================== -->
@@ -38,57 +35,55 @@
 
 	<!-- Google Analytics
 	================================================== -->
-		<script type="text/javascript">
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-44415832-1']);
-			_gaq.push(['_trackPageview']);
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-44415832-1']);
+		_gaq.push(['_trackPageview']);
 
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
 <body>
-
-
 
 	<!-- Primary Page Layout
 	================================================== -->
 	<div class="container">
 		<div class="sixteen columns">
-			<h1 class="remove-bottom" style="margin-top: 40px">Tom Gavrilos Design</h1>
-			<h5>This website is currently under construction.</h5>
+			<h1 class="remove-bottom" style="margin-top: 40px; text-align: center;">Tom Gavrilos Design</h1>
+			<!--<h5>This website is currently under construction.</h5>-->
 		</div>
-		<div class="sixteen columns">
-			<div class="swiper-container">
+		<div class="sixteen columns animated carousel">
+			<div class="swiper-container animated visuallyhidden">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
 						<img src="assets/images/3knives-display.jpg" alt="3 Knives Display">
-<!-- 						<div class="reflection"></div> -->
+						<div class="reflection"></div>
 					</div>
 					<div class="swiper-slide">
 						<img src="assets/images/bowie-knife-on-treadle-hammer.jpg" alt="Bowie Knife on Treadle Hammer">
-<!-- 						<div class="reflection"></div> -->
+						<div class="reflection"></div>
 					</div>
 					<div class="swiper-slide">
 						<img src="assets/images/chef-knife-in-stump.jpg" alt="Chef Knife in Stump">
-<!-- 						<div class="reflection"></div> -->
+						<div class="reflection"></div>
 					</div>
 					<div class="swiper-slide">
 						<img src="assets/images/chef-knife-yes-chef.jpg" alt="Chef Knife - 'Yes Chef'">
-<!-- 						<div class="reflection"></div> -->
+						<div class="reflection"></div>
 					</div>
 					<div class="swiper-slide">
 						<img src="assets/images/damascus-folding-knife.jpg" alt="Damascus Folding Knife">
-<!-- 						<div class="reflection"></div> -->
+						<div class="reflection"></div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="sixteen columns">
-<!-- 			<a href="//github.com/tgavrilos/Feedback/issues/new" target="_blank" class="button">Leave me feedback via Github!</a> -->
+		<div class="sixteen columns" style="text-align: center;">
+			<a href="//github.com/tgavrilos/Feedback/issues/new" target="_blank" class="button">Leave me feedback via Github!</a>
 		</div>
 	</div><!-- container -->
 
@@ -96,9 +91,9 @@
 	================================================== -->
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript">
-	if (typeof jQuery == 'undefined') {
-		document.write(unescape("%3Cscript src='assets/js/vendor/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
-	}
+		if (typeof jQuery == 'undefined') {
+			document.write(unescape("%3Cscript src='assets/js/vendor/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+		}
 	</script>
 	<script type="text/javascript" src="assets/js/vendor/jquery.easing.js"></script>
 	<script type="text/javascript" src="assets/js/plugins.js"></script>
