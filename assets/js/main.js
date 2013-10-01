@@ -37,7 +37,7 @@ function autorun()
 	});
 
 	$(".swiper-container").hammer().on("touch", function(event) {
-		mySwiper.stopAutoplay();
+		mySwiper.stopAutoplay()
 		mySwiper.reInit();
 	});
 
