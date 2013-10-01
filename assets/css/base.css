@@ -64,8 +64,8 @@
 		background: linear-gradient(to bottom,  #000000 0%,#808080 100%);
 */
 /* 		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-/* 		font: 14px/21px Futura, "Trebuchet MS", Arial, sans-serif; */
-		font: 14px/21px "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+		font: 14px/21px Futura, "Trebuchet MS", Arial, sans-serif;
+/* 		font: 14px/21px "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; */
 		color: #444;
 /* 		color: #fff; */
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -433,6 +433,7 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+	.text-center { text-align: center !important; }
 	.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; }
 	.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 

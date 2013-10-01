@@ -6,6 +6,8 @@ function autorun()
 
 	console.log("Thanks for visiting tomgavrilos.com - The portfolio of Tom Gavrilos. I'm a " + age + " year old product designer presently residing in Detroit, MI.");
 
+	//$('footer .year').html(today.getFullYear());
+
 	var mySwiper = new Swiper('.swiper-container',{
 		autoplay : 5000,
 		loop: true,
@@ -20,9 +22,6 @@ function autorun()
 			depth: 120,
 			modifier: 1,
 			shadows: true
-		},
-		onFirstInit : function() {
-			$(".swiper-container").removeClass("visuallyhidden").addClass("fadeIn");
 		}
 	});
 
