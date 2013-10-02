@@ -279,9 +279,6 @@
 
 /* #Carousel
 ================================================== */
-
-	.carousel { height: 657px; }
-
 	/* Basic Swiper Styles */
 	.swiper-container {
 		margin:0 auto;
@@ -358,11 +355,16 @@
 		position: absolute;
 		left: 0;
 		bottom: -15px;
-		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0))); /* Safari 4+, Chrome */
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)); /* Chrome 10+, Safari 5.1+, iOS 5+ */
-		background-image:    -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)); /* Firefox 3.6-15 */
-		background-image:      -o-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0)); /* Opera 11.10-12.00 */
-		background-image:         linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0)); /* Firefox 16+, IE10, Opera 12.50+ */
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.3)), to(rgba(0,0,0,0)));
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0));
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0));
+		background-image: -o-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0));
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0));
+	}
+
+	/* Navigation Styles */
+	.swiper-nav {
+		text-align: right;
 	}
 
 	/* Pagination Styles */
@@ -398,33 +400,33 @@
 		pointer-events:none;
 	}
 	.swiper-slide-shadow-left {	
-		background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))); /* Safari 4+, Chrome */
-		background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Chrome 10+, Safari 5.1+, iOS 5+ */
-		background-image:    -moz-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 3.6-15 */
-		background-image:      -o-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Opera 11.10-12.00 */
-		background-image:         linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 16+, IE10, Opera 12.50+ */
+		background-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));
+		background-image: -webkit-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -moz-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -o-linear-gradient(right, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0));
 		
 	}
 	.swiper-slide-shadow-right {	
-		background-image: -webkit-gradient(linear, right top, left top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))); /* Safari 4+, Chrome */
-		background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Chrome 10+, Safari 5.1+, iOS 5+ */
-		background-image:    -moz-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 3.6-15 */
-		background-image:      -o-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Opera 11.10-12.00 */
-		background-image:         linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 16+, IE10, Opera 12.50+ */	
+		background-image: -webkit-gradient(linear, right top, left top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));
+		background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -moz-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -o-linear-gradient(left, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0));
 	}
 	.swiper-slide-shadow-top {	
-		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))); /* Safari 4+, Chrome */
-		background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Chrome 10+, Safari 5.1+, iOS 5+ */
-		background-image:    -moz-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 3.6-15 */
-		background-image:      -o-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Opera 11.10-12.00 */
-		background-image:         linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 16+, IE10, Opera 12.50+ */
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));
+		background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -moz-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -o-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));
 	}
 	.swiper-slide-shadow-bottom {	
-		background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0))); /* Safari 4+, Chrome */
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Chrome 10+, Safari 5.1+, iOS 5+ */
-		background-image:    -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 3.6-15 */
-		background-image:      -o-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Opera 11.10-12.00 */
-		background-image:         linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)); /* Firefox 16+, IE10, Opera 12.50+ */
+		background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: -o-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
 	}
 
 
@@ -433,7 +435,22 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+
+	.pull-right { float: right !important; }
+	.pull-left { float: left !important; }
+
+	.clearfix:before,
+	.clearfix:after {
+		content: " ";
+		display: table;
+	}
+	.clearfix:after { clear: both; }
+	.clearfix { *zoom: 1 }
+
+	.text-left { text-align: left !important; }
 	.text-center { text-align: center !important; }
+	.text-right { text-align: right !important; }
+
 	.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; }
 	.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
