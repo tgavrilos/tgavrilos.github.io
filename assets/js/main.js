@@ -6,7 +6,7 @@ function autorun()
 
 	console.log("Thanks for visiting tomgavrilos.com - The portfolio of Tom Gavrilos. I'm a " + age + " year old product designer presently residing in Detroit, MI.");
 
-	//$('footer .year').html(today.getFullYear());
+	$('footer .year').html(today.getFullYear());
 
 	$('h1').flowtype({
 		maxFont : 60,

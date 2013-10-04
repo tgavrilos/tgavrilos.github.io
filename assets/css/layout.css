@@ -41,9 +41,7 @@
 			height: 466px;
 		}
 		.swiper-nav { text-align: center; }
-		.addthis_toolbox {
-			text-align: center;
-		}
+		.addthis_toolbox { text-align: center; }
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
