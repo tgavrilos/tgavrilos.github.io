@@ -88,6 +88,7 @@
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
 	h5 { font-size: 17px; line-height: 24px; }
 	h6 { font-size: 14px; line-height: 21px; }
+	.header { margin: 20px 0;}
 	.subheader { color: #777; }
 
 	p { margin: 0 0 20px 0; }
@@ -363,9 +364,11 @@
 	}
 
 	/* Navigation Styles */
-	.swiper-nav {
-		text-align: right;
-	}
+	.swiper-nav { text-align: right; }
+		.swiper-nav span {
+			text-decoration: underline;
+			cursor: pointer;
+		}
 
 	/* Pagination Styles */
 	.swiper-pagination-switch { }

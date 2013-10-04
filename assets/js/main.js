@@ -8,6 +8,12 @@ function autorun()
 
 	//$('footer .year').html(today.getFullYear());
 
+	$('h1').flowtype({
+		maxFont : 60,
+		fontRatio : 10,
+		lineRatio : 1
+	});
+
 	var mySwiper = new Swiper('.swiper-container',{
 		autoplay : 5000,
 		loop: true,
@@ -51,7 +57,6 @@ function autorun()
 		mySwiper.swipeNext();
 		
 	});
-
 }
 if (window.addEventListener) window.addEventListener("load", autorun, false);
 else if (window.attachEvent) window.attachEvent("onload", autorun);
