@@ -58,6 +58,9 @@ function autorun()
 		
 	});
 }
-if (window.addEventListener) window.addEventListener("load", autorun, false);
-else if (window.attachEvent) window.attachEvent("onload", autorun);
+if (document.addEventListener) document.addEventListener("DOMContentLoaded", autorun, false);
+else if (document.attachEvent) document.attachEvent("onreadystatechange", autorun);
 else window.onload = autorun;
+// if (window.addEventListener) window.addEventListener("load", autorun, false);
+// else if (window.attachEvent) window.attachEvent("onload", autorun);
+// else window.onload = autorun;
